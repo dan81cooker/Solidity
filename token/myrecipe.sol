@@ -43,7 +43,7 @@ contract MyRecipeCoin is StandardToken {
 function SuperUltraPowerCoin() {
         balances[msg.sender] = 10000000000000000000000000000000;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
         totalSupply = 10000000000000000000000000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
-        name = "SuperUltraPowerCoin";                                   // Set the name for display purposes (CHANGE THIS)
+        name = "MyrecipeCoin";                                   // Set the name for display purposes (CHANGE THIS)
         decimals = 18;                                               // Amount of decimals for display purposes (CHANGE THIS)
         symbol = "SUPC";                                             // Set the symbol for display purposes (CHANGE THIS)
         unitsOneEthCanBuy = 10;                                      // Set the price of your token for the ICO (CHANGE THIS)
